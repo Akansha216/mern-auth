@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* app.css or any relevant CSS file */
+.toast {
+  font-size: 18px; /* Bigger font size */
+  padding: 15px 25px; /* Increased padding for larger toast */
+  border-radius: 10px; /* Round corners for a nicer look */
+}
+
+.toast-body {
+  font-weight: bold; /* Make text bold */
+  font-size: 20px; /* Larger text inside the toast */
+}
+
+.toast-success {
+  background-color: #28a745; /* Green background for success */
+  color: white;
+}
+
+.toast-error {
+  background-color: #dc3545; /* Red background for error */
+  color: white;
+}
+
+.toast-container {
+  z-index: 9999; /* Ensure toasts are on top of other content */
+}
